@@ -14,13 +14,13 @@ The project has three primary datasets, each serving a specific purpose:
 
 2. data/NST-EST2022-POP.xlsx:
 
-    This dataset is focused on population estimates for every U.S. state. It should provide information on the estimated population for each state, which is essential for various per capita calculations in your analysis.
+    This dataset is focused on population estimates for every U.S. state. It should provide information on the estimated population for each state, which is essential for various per capita calculations in the analysis.
 
 3. data/US States by Region - US Census Bureau.xlsx:
 
     This dataset is related to the regional division of U.S. states, as defined by the U.S. Census Bureau. It likely categorizes states into their respective census divisions. This dataset is crucial for grouping states and understanding regional trends.
 
-With these datasets, you can explore the quality and coverage of Wikipedia articles for U.S. cities and towns, calculate per capita coverage, and analyze how these metrics vary by state and region. It provides a comprehensive foundation for your project on bias in Wikipedia data.
+With these datasets, we can explore the quality and coverage of Wikipedia articles for U.S. cities and towns, calculate per capita coverage, and analyze how these metrics vary by state and region. It provides a comprehensive foundation for the project on bias in Wikipedia data.
 
 # Dependencies
 
@@ -37,19 +37,19 @@ With these datasets, you can explore the quality and coverage of Wikipedia artic
 
 # Data Understanding/Caveats
 
-It's essential to have a robust data acquisition and cleaning process, especially when dealing with a large dataset. Handling errors, deduplication, and addressing non-geographic articles are important steps to ensure the quality and accuracy of your analysis. Here's a breakdown of the key steps you've described:
+It's essential to have a robust data acquisition and cleaning process, especially when dealing with a large dataset. Handling errors, deduplication, and addressing non-geographic articles are important steps to ensure the quality and accuracy of our analysis. Here's a breakdown of the key steps:
 
 1. **Efficient Data Acquisition with Error Handling:** <br>
-    When accessing data from an external source or API, it's crucial to implement error handling mechanisms to manage issues like network failures, timeouts, and exceptions. This ensures that your data acquisition process runs smoothly and doesn't break when unexpected problems arise.
+    When accessing data from an external source or API, it's crucial to implement error handling mechanisms to manage issues like network failures, timeouts, and exceptions. This ensures that our data acquisition process runs smoothly and doesn't break when unexpected problems arise.
 
 2. **Deduplication using a Dictionary:**<br>
     Deduplication is essential to avoid redundancy and maintain data integrity. Using a dictionary to store unique entries is a smart approach, as dictionaries inherently do not allow duplicate keys. This simplifies the process of removing duplicate articles.
 
 3. **Handling Non-Geographic Articles:**<br>
-    Identifying and excluding non-geographic articles is a critical part of your analysis. You can apply filters or conditions to your dataset to exclude entries that are not relevant to your project's geographic focus.
+    Identifying and excluding non-geographic articles is a critical part of our analysis. We can apply filters or conditions to our dataset to exclude entries that are not relevant to our project's geographic focus.
 
 4. **Cleaning Population Data:**<br>
-    Population data may have inconsistencies or anomalies, like the "District of Columbia0" entry you mentioned. Removing such entries is important to ensure that your population data is accurate and can be correctly associated with the geographic articles.
+    Population data may have inconsistencies or anomalies, like the "District of Columbia0" entry. Removing such entries is important to ensure that our population data is accurate and can be correctly associated with the geographic articles.
 
 Handling these challenges is a key part of any data-driven project, particularly when working with extensive datasets.
 
@@ -75,7 +75,7 @@ The project comprises two notebooks, each focusing on distinct aspects of the pr
 2. code/AM_DATA512_W2_Data_Analysis.ipynb: <br>
     In this notebook, the primary emphasis is on conducting various data analysis and data visualization activities. It is intended for exploring and deriving insights from the processed data.
 
-These two notebooks together cover the comprehensive workflow of your project, from data acquisition and preparation to the subsequent data analysis and visualization stages.
+These two notebooks together cover the comprehensive workflow of the project, from data acquisition and preparation to the subsequent data analysis and visualization stages.
 
 # Coding Process/Steps to Reproduce
 
